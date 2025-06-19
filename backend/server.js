@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-  origin: "https://tranquil-blancmange-5781d6.netlify.app", // ✅ exact Netlify URL
+  origin: "https://inventory-management-00223.netlify.app", // ✅ exact Netlify URL
   credentials: true
 }));
 app.use(express.json());
